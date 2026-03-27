@@ -24,3 +24,11 @@ A collection of reusable draw.io diagram templates for common diagram types (gan
 3. Export a preview image (PNG preferred).
 4. Update `README.md` with a description and preview.
 5. Commit: `feat: add <template-type> template`
+
+## Agent Memory
+
+Use `./CHATHISTORY.md` as the standard local handoff file for this repo.
+
+- It is local-only and gitignored.
+- Read it after `AGENTS.md` when resuming work.
+- Keep entries brief and centered on template additions, preview regeneration, and next steps.
