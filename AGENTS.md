@@ -27,8 +27,11 @@ A collection of reusable draw.io diagram templates for common diagram types (gan
 
 ## Agent Memory
 
+Use `./LESSONSLEARNED.md` as the tracked durable lessons file for this repo.
 Use `./CHATHISTORY.md` as the standard local handoff file for this repo.
 
-- It is local-only and gitignored.
-- Read it after `AGENTS.md` when resuming work.
-- Keep entries brief and centered on template additions, preview regeneration, and next steps.
+- `LESSONSLEARNED.md` is tracked and should capture only reusable lessons.
+- `CHATHISTORY.md` is local-only, gitignored, and should capture transient handoff context.
+- Read `LESSONSLEARNED.md` and `CHATHISTORY.md` after `AGENTS.md` when resuming work.
+- Add durable lessons to `LESSONSLEARNED.md` when they should influence future sessions.
+- Keep transient entries brief and centered on template additions, preview regeneration, and next steps.
