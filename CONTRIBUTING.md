@@ -1,36 +1,27 @@
 # Contributing
 
-Thank you for your interest in contributing!
+This repository stores reusable draw.io templates. New additions should stay generic, easy to preview, and ready to reuse in other projects.
 
-## Getting Started
+## Workflow
 
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feat/your-feature
-   ```
-3. Make your changes.
-4. Commit using [Conventional Commits](https://www.conventionalcommits.org/):
-   ```
-   type(scope): short description
-   ```
-   Types: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`, `ci`, `perf`
-5. Push and open a Pull Request.
+1. Create a dedicated directory for the template family using lowercase kebab-case.
+2. Commit the `.drawio` source file.
+3. Export at least one preview image so the template is visible from GitHub.
+4. Update `README.md` with the new template name, source path, and preview.
+5. Use a focused Conventional Commit such as `feat: add network-diagram template`.
 
-## Code Standards
+## Template Standards
 
-- Follow existing code style and conventions.
-- Run linters/formatters before submitting.
-- Add or update tests for new functionality.
-- Update documentation if your change affects usage.
+- Keep labels and sample content generic rather than project-specific.
+- Prefer consistent canvas sizing and legible defaults.
+- Include both editable source and rendered preview assets in the same change.
+- When refreshing an existing template, update the preview images so the documentation stays accurate.
 
-## Pull Request Guidelines
+## Pull Requests
 
-- Keep PRs focused — one concern per PR.
+- Keep each pull request to one template family or one cleanup theme.
 - Fill out the PR template.
-- Ensure CI checks pass.
+- Ensure any relevant checks pass before merging.
 - Do not commit secrets, credentials, or sensitive data.
-
-## Questions?
-
-Open an issue for bugs, feature requests, or questions.
+- Mention whether previews were regenerated.
+- Call out any compatibility considerations for draw.io or diagrams.net users.
