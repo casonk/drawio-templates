@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+title drawio-templates Repository Architecture Starter
+skinparam shadowing false
+skinparam defaultFontName Monospace
+skinparam packageStyle rectangle
+
+actor Contributor as contributor
+rectangle "README.md\nAGENTS.md\nLESSONSLEARNED.md" as governance #E2E8F0
+rectangle "docs/contributor-architecture-blueprint.md" as blueprint #DBEAFE
+rectangle "docs/diagrams/repo-architecture.puml" as plantuml_source #FCE7F3
+rectangle "docs/diagrams/repo-architecture.drawio" as drawio_source #FCE7F3
+rectangle ".github/workflows/" as workflows #DCFCE7
+package "Implementation / Content Roots" #F8FAFC {
+  rectangle "gantt-chart/" as root_1 #E0F2FE
+}
+
+contributor --> governance
+governance --> blueprint
+blueprint --> plantuml_source
+blueprint --> drawio_source
+plantuml_source --> root_1
+drawio_source --> root_1
+workflows --> root_1
+@enduml
