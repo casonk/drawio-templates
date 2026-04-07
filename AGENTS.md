@@ -25,6 +25,16 @@ A collection of reusable draw.io diagram templates for common diagram types (gan
 4. Update `README.md` with a description and preview.
 5. Commit: `feat: add <template-type> template`
 
+## Local CI Verification
+
+Run before every push:
+
+```bash
+pre-commit run --all-files
+```
+
+Do not push changes that have not passed all checks locally.
+
 ## Portfolio Standards Reference
 
 For portfolio-wide repository standards and baseline conventions, consult the control-plane repo at `./util-repos/traction-control` from the portfolio root.
