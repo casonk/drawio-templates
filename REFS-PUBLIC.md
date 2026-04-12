@@ -1,4 +1,4 @@
-# REFS-PUBLIC.md — Public References
+# REFS-PUBLIC.md - Public References
 
 > Record external public repositories, datasets, documentation, APIs, or other
 > public resources that this repository utilizes or depends on.
@@ -6,22 +6,17 @@
 
 ## Public Repositories
 
-<!-- External repos this project depends on, forks, or integrates with:
-- https://github.com/org/repo — description of usage
--->
+- https://github.com/jgraph/drawio - upstream draw.io / diagrams.net project for the template format and desktop renderer
 
 ## Public Datasets and APIs
 
-<!-- Publicly accessible data sources, REST APIs, or external feeds consumed here:
-- https://example.com/dataset — description of usage
--->
+- No standing public datasets or APIs are required; the repo stores reusable diagram templates.
 
 ## Documentation and Specifications
 
-<!-- Reference docs, RFCs, standards, or upstream project documentation:
-- https://docs.example.com — description
--->
+- https://app.diagrams.net/ - primary editing surface for the checked-in .drawio templates
+- https://www.drawio.com/doc/ - diagrams.net documentation and usage guidance
 
 ## Notes
 
-<!-- Any context about how these public references are used or versioned -->
+- Preview PNGs are generated from local template sources; no external data feed is consumed by this repo.
