@@ -4,8 +4,6 @@
 [![CI](https://github.com/casonk/drawio-templates/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/casonk/drawio-templates/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 <!-- badges:end -->
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 Reusable [draw.io](https://app.diagrams.net/) templates for common diagrams.
 
 ## Available Templates
