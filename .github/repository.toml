@@ -4,6 +4,7 @@
 [repository]
 # One line shown on GitHub. Keep it free of private repository names and local paths.
 description = "draw.io templates to save time on common diagrams"
+topics = ["drawio", "diagrams", "templates", "plantuml", "architecture", "documentation"]
 
 [main_branch]
 # Direct commits and pushes to main are refused unless this is true.
